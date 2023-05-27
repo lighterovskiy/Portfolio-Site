@@ -357,6 +357,8 @@ input[type=date]:invalid::-webkit-datetime-edit {
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
+    justify-content: center;
+   
 }
 .my-steps__step-text {
     font-family: 'Montserrat';
@@ -368,7 +370,6 @@ input[type=date]:invalid::-webkit-datetime-edit {
 .my-steps__item {
     margin: 0 117px;
 }
-
 
 
 .my-steps__img {
@@ -387,12 +388,7 @@ input[type=date]:invalid::-webkit-datetime-edit {
         text-align: center;
         margin: 50px 0px 0px 15px;
     }
-    .my-steps__container {
     
-    }
-    .my-steps__steps-block {
-        margin: auto -10px;
-    }
 }
 
 @media (max-width: 440px) {
@@ -504,6 +500,11 @@ form .txt_field {
 @media (max-width: 440px) {
     .my-form__btn {
         margin: 5px 0px;
+    }
+}
+@media (max-width: 680px) {
+    .my-platforms {
+        display: none;
     }
 }
 
