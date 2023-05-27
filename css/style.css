@@ -307,6 +307,9 @@ input[type=date]:invalid::-webkit-datetime-edit {
         .my-help__item-num {
             padding: 10px 0px 0px 40%;
         }
+        .my-help__item {
+            margin: 30px 0px 0px 0px;
+        }
     }
 
 /* MY VALUES */
@@ -500,7 +503,7 @@ form .txt_field {
 
 @media (max-width: 440px) {
     .my-form__btn {
-        margin: 5px 30px;
+        margin: 5px 0px;
     }
 }
 
@@ -520,4 +523,11 @@ form .txt_field {
     max-width: 1700px;
     color: #FFF;
     margin: 50px auto;
+}
+
+@media (max-width: 440px) {
+    .footer__text {
+       font-size: 12px;
+       margin: 20px auto;
+    }
 }
